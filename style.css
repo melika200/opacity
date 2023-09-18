@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ body{
+    @apply flex justify-center
+ }
+ .container{
+    @apply w-[400px] flex justify-center items-center
+    mt-[5rem]
+    bg-sky-700
+    h-[400px]
+    rounded-full
+ }
+ .items{
+    @apply w-[100px] h-[100px]
+    text-[25px]
+    text-center
+    font-bold 
+    font-sans
+ }
+ .y{
+    @apply bg-slate-700
+    text-slate-400 md:opacity-30 lg:opacity-100
+ }
+ .d{
+    @apply bg-orange-600
+    text-rose-400
+ }
+ .s{
+    @apply bg-sky-500
+    text-zinc-400
+ }
